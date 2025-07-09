@@ -1,8 +1,8 @@
 # Privacy Policy
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 2025-07-09
 
-Contrarian Ventures ("we", "us", "our") operates the [Your App Name] WhatsApp integration and related services (collectively, "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you interact with us via WhatsApp.
+Contrarian Ventures ("we", "us", "our") operates the N8N automation app with WhatsApp integration and related services (collectively, "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you interact with us via WhatsApp.
 
 ---
 
@@ -22,9 +22,8 @@ Contrarian Ventures ("we", "us", "our") operates the [Your App Name] WhatsApp in
 We use the collected information to:
 
 1. **Provide and improve the Service.** Process your messages, respond to queries, and maintain conversation history.
-2. **Send notifications and updates.** Transactional alerts (e.g., order status), reminders, and other relevant messages.
-3. **Personalize your experience.** Tailor responses and suggestions based on your preferences and past interactions.
-4. **Compliance and security.** Detect and prevent fraud, enforce terms of use, and comply with legal obligations.
+2. **Personalize your experience.** Tailor responses and suggestions based on your preferences and past interactions.
+3. **Compliance and security.** Detect and prevent fraud, enforce terms of use, and comply with legal obligations.
 
 ## 3. Data Sharing and Disclosure
 
@@ -50,7 +49,7 @@ You have the right to:
 - **Object** to or **restrict** certain processing activities.
 - **Portability**: Receive your data in a structured format.
 
-To exercise these rights, please email us at privacy@contrarianventures.com.
+To exercise these rights, please email us at dev@cventures.vc.
 
 ## 6. Security
 
@@ -65,9 +64,4 @@ Our Service is not directed to children under 16. If you believe we have collect
 If you have questions or concerns about this Privacy Policy, please contact us at:
 
 Contrarian Ventures
-Email: privacy@contrarianventures.com
-
----
-
-*Note: Replace placeholders (e.g. [Insert Date], [Your App Name], email address) with your actual information before publishing.*
-
+Email: dev@cventures.vc
