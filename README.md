@@ -10,7 +10,7 @@ This bot lets you drop a DocSend link **or** attach a PDF pitch-deck in WhatsApp
 |-----------|--------------|--------------|------------|
 | **WhatsApp 2.0** | Listens to your messages, replies, and orchestrates everything else. | Every new WhatsApp message from the four whitelisted numbers. | Chat replies + calls the helper workflows |
 | **docsend2pdf** | Converts a DocSend link to a PDF and immediately sends that PDF back into the chat. | Whenever the bot sees a DocSend link | `mediaId` + the PDF file |
-| **process_pdf** | Runs OCR on the PDF, turns slides into Markdown, and extracts *company name* & *website*. | Any time the bot needs metadata about a deck | `{ "company": “…", "domain": "…" }` |
+| **process_pdf** | Runs OCR on the PDF, turns slides into Markdown, and extracts **company name** & **website**. | Any time the bot needs metadata about a deck | `{ "company": “…", "domain": "…" }` |
 | **save_pdf** | Uploads the PDF to the correct *Files* tab in Affinity. | Only after you say **upload / save / add to Affinity** | Affinity confirmation |
 
 ---
@@ -22,7 +22,7 @@ This bot lets you drop a DocSend link **or** attach a PDF pitch-deck in WhatsApp
 | Your goal | What to send | What happens next |
 |-----------|--------------|-------------------|
 | **Preview a deck** (no upload yet) | DocSend link (alone) **OR** attach a PDF | Bot sends back the PDF named like `ACME_deck.pdf`. The deck is kept “pending” so you can upload later. |
-| **Upload after preview** | `upload`  *(or* `save`, `add to Affinity`)* | Bot suggests matching companies from Affinity. Reply with the number or “0” to create a new one. |
+| **Upload after preview** | `upload`  *(or `save`, `add to Affinity`)* | Bot suggests matching companies from Affinity. Reply with the number or “0” to create a new one. |
 | **Send & upload in one go** | DocSend link **or** PDF **plus** the word `upload` (or `save` / `add to Affinity`) in the same message | Same flow as above, but it starts the upload immediately. |
 | **Get help** | `help` | Quick cheat-sheet of the above commands. |
 
